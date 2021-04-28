@@ -1,0 +1,137 @@
+ {
+    margin: 0;
+    padding: 0;
+    font-family:Century;
+} 
+ul{
+	float: left;
+	list-style-type:none
+    margin= 50px;
+}
+
+ul li{
+        display: inline-block;
+}
+ul li a{
+    text-decoration:none;
+    color:grey;
+    padding: 5px 20px;
+    border: 1px S solid black;    
+}
+ul li a:hover{
+    background-color:white;
+    color:greenyellow;
+}
+.logo img{
+    float: left;
+    width: 100px;
+    height: auto; 
+}
+.main{
+    max-width: 1200px;
+    margin:auto;
+}
+/* .logo img{
+    float: left;
+    width: 100px;
+    height: auto; */
+
+.p{
+    color: green;
+}
+
+.search{
+    padding=15px 0
+}
+.two-coloum > .coloum-1 {
+    width: 500px;
+    display: left;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 0px;
+    height: 400px;
+    
+    }
+
+
+.two-coloum > .coloum-2 {
+    width: 50px;
+    display: inline-block
+}
+.btn > .btn-round-lg{
+    border-radius: 22.5px;
+    font-size: 20px;
+    line-height: 30px; 
+    color:rgb(63, 124, 2);
+    width: 200;
+    letter-spacing: .6px;
+}
+.S2-img{
+    align-items: center;
+    padding: 130px;
+    padding-left: 110px;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .bottom-left {
+    position: absolute;
+    padding: 130px;
+    padding-left: 110px;
+    bottom : 10px;
+    left: 10px;
+  }
+  
+  .container > .For-clients {
+    position: absolute;
+    padding: 130px;
+    padding-left: 110px;
+    color:rgb(255, 255, 255);
+    font-size: 40px;
+    top: 8px;
+    left: 16px;
+  }
+  
+  
+  .centered {
+    position: absolute;
+    padding: 130px;
+    padding-left: 110px;
+    top: 5%;
+    left: 10px;
+}
+.btn-round-lg{
+    border-radius: 22.5px;
+    }
+    .btn-round-lg:hover{
+        background-color: honeydew;
+        color: green;
+    }
+
+    .btn-round{
+    border-radius: 17px;
+    }
+    .btn-round{
+        background-color: honeydew;
+        color: green;
+    }
+    .btn-round-sm{
+    border-radius: 15px;
+    }
+    .btn-round-sm{
+        background-color: honeydew;
+        color: green;
+    }
+    .btn-round-xs{
+    border-radius: 11px;
+    padding-left: 10px;
+    padding-right: 10px;
+    }
+    .btn-round-xs{
+        background-color: honeydew;
+        color: green;
+    }
+ 
