@@ -140,14 +140,66 @@ ul li a:hover{
         display: flex;
       }
 
+      .one {
+        flex: 1 1 auto;
+      }
+
+      .two {
+        flex: 1 1 auto;
+      }
+
+      .three {
+        flex: 1 1 auto;
+      }
+  
+
+    .Section3 {
+        display: flex;
+      }
+
       .box > .bottom-left {
         flex: 1 1 auto;
       }
 
-      .box >   .two {
-        flex: 1 1 auto;
+      .Section3 >   .two {
+        flex: 50%;
       }
 
-    .box > .one {
-        flex: 1 1 auto;
+    .Section3 > .one {
+        flex: 50%;
       }
+      .Section3 > .one > h2 :hover{
+        background-color:white;
+        color:greenyellow;
+      }
+      .Section3 > .one > ul li a {
+      font-size: 35px;
+    width: 42%;
+    margin-top: 0px;
+    margin-left: 60px;
+    margin-bottom: 0px;
+      }
+
+      .Section4 {
+       display: flex;
+       flex-direction: row;
+                      }
+      .Section4 > .Section4_one{
+          flex:50%;
+      }
+      .Section4 > .Section4_two{
+        flex:50%;
+      }
+
+      /*.Section4_two {
+        display: flex;
+                               }
+        .Section4_two > .Section4_two > .Section_two_01{
+           flex:33%;
+       }
+       .Section4_two > .Section4_two > .Section_two_02{
+         flex:33%;
+       }
+       .Section4_two > .Section4_two > .Section_two_03{
+        flex:33%;
+      } */
